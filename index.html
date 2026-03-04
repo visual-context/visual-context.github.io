@@ -102,7 +102,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="" target="_blank"
+                        <a href="https://arxiv.org/pdf/2603.02498" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -114,7 +114,7 @@
                   <!-- Github link -->
                   <span class="link-block">
                     <a href="" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
+                    class="external-link button is-normal is-rounded is-dark is-disabled" disabled>
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
@@ -124,7 +124,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/XXXX.XXXXX" target="_blank"
+                  <a href="https://arxiv.org/abs/2603.02498" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -136,21 +136,21 @@
               <!-- Try it Link -->
               <span class="link-block ">
                 <a href="" target="_blank"
-                class="external-link button is-normal is-rounded is-primary has-text-black">
+                class="external-link button is-normal is-rounded is-primary has-text-black is-disabled" disabled>
                 <span class="icon">
                   <i class="fas fa-play"></i>
                 </span>
-                <span class="has-text-black">Interactive Demo (coming soon)</span>
+                <span class="has-text-black">Demo (soon)</span>
               </a>
             </span>
 
             <!-- Data Viewer -->
             <span class="link-block ">
-              <a href="" target="_blank" class="external-link button is-normal is-rounded is-primary has-text-black">
+              <a href="https://visual-context.github.io/catalogue" target="_blank" class="external-link button is-normal is-rounded is-primary has-text-black">
                 <span class="icon">
                   <i class="fas fa-play"></i>
                 </span>
-                <span class="has-text-black">Data Viewer (cursor trajectory)</span>
+                <span class="has-text-black">Data Viewer</span>
               </a>
             </span>
           </div>
@@ -165,7 +165,7 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <figure class="image is-max-desktop">
-        <img src="static/images/system-teaserimage 2" alt='An illustration of a person with low vision leaning towards the monitor, trying to read a chart (left). The chart is shown in full with the caption "What provides context in chart reading?". Four highlighted chart elements are: axes, legend, grid lines, and the overview. Both interaction methods are shown side-by-side. Dynamic Context shows the axes, legend, and one horizontal and vertical grid lines which connect at the center of the display. Mini-map shows a small floating copy of the chart with an indication of the current position relative to the chart.'>
+        <img src="static/images/system-teaserimage.jpg" alt='An illustration of a person with low vision leaning towards the monitor, trying to read a chart (left). The chart is shown in full with the caption "What provides context in chart reading?". Four highlighted chart elements are: axes, legend, grid lines, and the overview. Both interaction methods are shown side-by-side. Dynamic Context shows the axes, legend, and one horizontal and vertical grid lines which connect at the center of the display. Mini-map shows a small floating copy of the chart with an indication of the current position relative to the chart.'>
       </figure>
       <h2 class="subtitle has-text-centered">
         Our proposed interaction methods provide access to visual context elements for low-vision individuals (LVI). Dynamic Context is
@@ -187,7 +187,7 @@
         <track kind="subtitles" src="static/videos/video_figure.vtt" srclang="en" label="English" default>
       </video>
       <h2 class="subtitle has-text-centered">
-        Video demonstration of the chart accessibility system. The system provides on-cursor visual context magnification for low-vision chart users, dynamically highlighting relevant data and providing enhanced visual information as users explore different areas of the chart. This assistive technology significantly improves chart comprehension and data access for individuals with low vision.
+        Video overview of the research. In the video, we show the system in action, and present some of the study findings. The video is captioned for accessibility.
       </h2>
     </div>
   </div>
@@ -211,74 +211,43 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">Results</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/success+speed.png" alt="Chart comprehension accuracy and task completion time results for low-vision participants"/>
-        <h2 class="subtitle has-text-centered">
-          <strong>Left:</strong> Chart comprehension accuracy rates of LV participants (P1-P8) across different chart types under baseline and system-assisted conditions. <strong>Right:</strong> Average task completion times for chart interpretation tasks under baseline and system-assisted conditions.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/load.jpg" alt="Cognitive load and user satisfaction results for low-vision participants"/>
-        <h2 class="subtitle has-text-centered">
-          Subjective evaluation results comparing baseline chart viewing to system-assisted viewing. Measures include perceived cognitive load, visual fatigue, confidence in data interpretation, and overall satisfaction. Green tones indicate improved metrics with the system, red tones indicate areas for improvement. Statistical significance (𝑝 < 0.05) is indicated with *.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/full.jpg" alt="Comprehensive results across all test conditions and participant groups"/>
-        <h2 class="subtitle has-text-centered">
-         Comprehensive breakdown of results for chart comprehension accuracy and task completion times across different chart types, magnification settings, and participant visual acuity levels. Results demonstrate consistent improvements with system assistance across both low-vision and sighted participant groups. "Total" indicates the aggregate data across all test conditions.
-       </h2>
-     </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">System Demonstration</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/general_example.mp4"
-            type="video/mp4">
-          </video>
-          <h2 class="subtitle has-text-centered">
-            Basic chart exploration with on-cursor visual context magnification enabled, showing how users can navigate complex charts while maintaining spatial awareness.
-          </h2>
+<!-- Data Viewer Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Interactive Data Viewer</h2>
+        <div class="content has-text-justified">
+          <p>
+            We provide an interactive catalogue to explore cursor trajectory data collected during our study with low-vision participants. The <strong>Visual Context Catalogue</strong> contains detailed interaction records from three experimental conditions: baseline (using assistive tools alone), Mini-map augmentation, and Dynamic Context enhancement. Participants interacted with various charts while their cursor movements were recorded at high frequency with millisecond precision.
+          </p>
+          <p>
+            The interactive viewer offers:
+          </p>
+          <ul style="text-align: left; display: inline-block;">
+            <li><strong>Multi-dimensional Filtering:</strong> Filter by visualization type (heatmap, contour, scanpath, etc.), participant, experimental condition, and task/question</li>
+            <li><strong>Visual Analytics:</strong> Browse time-weighted trajectory heatmaps and scanpath visualizations with interactive hover previews</li>
+            <li><strong>Data Export:</strong> Download filtered results or the complete interaction dataset as CSV for further analysis</li>
+            <li><strong>Accessibility-First Design:</strong> Semantic HTML, keyboard navigation, and screen reader support</li>
+          </ul>
         </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/personalization_example.mp4"
-            type="video/mp4">
-          </video>
-          <h2 class="subtitle has-text-centered">
-            Customizing system settings including magnification level, visual context information, and highlight appearance to meet individual user preferences and visual needs.
-          </h2>
-        </div>
+      </div>
+    </div>
+    
+    <!-- Data Viewer Interface Image -->
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <figure class="image">
+          <img src="static/images/catalogue-interface.png" alt="Screenshot of the interactive data viewer showing the filtering system with options for visualization type, participant, condition, and question, alongside the dynamic visualization gallery displaying cursor trajectory heatmaps.">
+          <figcaption class="has-text-centered" style="margin-top: 1rem;">
+            <em>Interactive catalogue interface for exploring cursor trajectory visualizations across study conditions and participants.</em>
+          </figcaption>
+        </figure>
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
-
-
+<!-- End Data Viewer Section -->
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
@@ -289,14 +258,15 @@
 author = {Sechayk, Yotam and Rave, Hennes and R\"adler, Max and Colley, Mark and Zhou, Zhongyi and Shamir, Ariel and Igarashi, Takeo},
 title = {Improving Low-Vision Chart Accessibility via On-Cursor Visual Context},
 year = {2026},
+month = {April},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-url = {https://doi.org/10.1145/XXXXX},
-doi = {10.1145/XXXXX},
+location = {Barcelona, Spain},
+url = {https://doi.org/10.1145/3772318.3791165},
+doi = {10.1145/3772318.3791165},
 abstract = {Charts remain largely inaccessible for Low-Vision Individuals (LVI). Exploring charts requires viewing data points within their global context, which is difficult for LVI, who may rely on magnification or experience partial field of vision. We aim to improve exploration by providing critical context visually. To inform this, we conducted a formative study with five LVI. We identified four contextual elements common across charts: axes, legend, grid lines, and the overview. We propose two interaction methods to provide this context: Dynamic Context, a novel focus+context interaction, and Mini-map, which adapts overview+detail principles for LVI. In a study with N=22 LVI, we evaluated both methods and their integration with assistive tools. Our results show that Dynamic Context had significant positive impact on access, usability, and effort reduction; however, worsened visual load. Mini-map strengthened spatial understanding, but less preferred for this task. We offer design insights to guide the development of future systems that support LVI with visual context while balancing visual load.},
-booktitle = {Proceedings of the 2026 ACM CHI Conference on Human Factors in Computing Systems},
-articleno = {XXXX},
-numpages = {XX},
+booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)},
+numpages = {21},
 series = {CHI '26}
 }
       </code></pre>

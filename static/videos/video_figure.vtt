@@ -1,0 +1,94 @@
+﻿WEBVTT
+
+00:00:00.250 --> 00:00:04.546
+Introducing: Improving low vision chart
+accessibility via on cursor visual context.
+
+00:00:05.130 --> 00:00:07.757
+For low vision users,
+reading charts is a complex task,
+
+00:00:07.757 --> 00:00:10.802
+requiring exhausting panning,
+zooming, and mental reconstruction.
+
+00:00:11.052 --> 00:00:13.763
+We overlay semantic context
+directly around the pointer.
+
+00:00:13.763 --> 00:00:15.348
+Our method works together with existing
+
+00:00:15.348 --> 00:00:18.393
+assistive tools and makes accessing charts
+easier for low vision users.
+
+00:00:18.601 --> 00:00:21.980
+Informed by our formative study, identify
+four critical elements for access
+
+00:00:22.022 --> 00:00:25.692
+the axes, the legend, the gridlines,
+and the overview.
+
+00:00:25.984 --> 00:00:27.736
+We explore two interaction paradigms.
+
+00:00:27.736 --> 00:00:31.322
+Mini map inspired by overview
+plus detail and dynamic context.
+
+00:00:31.322 --> 00:00:33.324
+Inspired by focus plus context methods.
+
+00:00:33.324 --> 00:00:36.411
+We evaluated these with 22 low vision
+participants using a mixed
+
+00:00:36.411 --> 00:00:38.663
+methods approach across
+diverse chart types.
+
+00:00:38.663 --> 00:00:41.207
+Our results show that dynamic context
+significantly increases
+
+00:00:41.207 --> 00:00:43.960
+the usability of existing assistive tools
+for chart exploration.
+
+00:00:43.960 --> 00:00:47.172
+We observed a fundamental shift in access
+patterns on some visualizations,
+
+00:00:47.297 --> 00:00:50.091
+where the way users navigate data change
+significantly.
+
+00:00:50.091 --> 00:00:52.552
+Dynamic context
+significantly reduced both the physical
+
+00:00:52.552 --> 00:00:55.305
+and overall effort
+required to read and interpret charts.
+
+00:00:55.305 --> 00:00:58.767
+While both methods improve access,
+dynamic context had a significantly higher
+
+00:00:58.767 --> 00:01:01.770
+impact on a user's
+sense of autonomy and data clarity.
+
+00:01:01.770 --> 00:01:04.522
+Dynamic context is an approach
+that gives low vision people
+
+00:01:04.522 --> 00:01:07.525
+easier access to what
+they should see within its context.
+
+00:01:08.109 --> 00:01:10.320
+Thank you.
+Please read our paper to learn more.
